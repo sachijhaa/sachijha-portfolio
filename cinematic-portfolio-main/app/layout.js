@@ -27,48 +27,46 @@ const dancing = Dancing_Script({
 });
 
 const description =
-  'Control-M SME and production support specialist with 15+ years across enterprise workload automation, ITSM, RPA, and AI-assisted operations.';
-
+  'Sachi Jha is an aspiring Full-Stack Developer and AI Enthusiast passionate about building innovative applications and solving real-world problems through technology.';
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Jyoti Sinha | Software Engineer',
-    template: '%s | Jyoti Sinha',
+    default: 'Sachi Jha | Full-Stack Developer & AI Enthusiast',
+    template: '%s | Sachi Jha',
   },
   description,
   keywords: [
-    'Jyoti Sinha',
-    'Control-M SME',
-    'Control-M Administrator',
-    'Production Support',
-    'Application L3 Support',
-    'Agentic AI Automation',
-    'Batch Scheduling',
-    'ITIL',
-    'UiPath RPA',
-    'Singapore',
+    'Sachi Jha',
+    'Full-Stack Developer',
+    'AI Enthusiast',
+    'Software Engineer',
+    'Web Developer',
+    'MERN Developer',
+    'Machine Learning',
+    'Hackathon Projects',
+    'Data Structures and Algorithms'
   ],
-  authors: [{ name: 'Jyoti Sinha', url: SITE_URL }],
-  creator: 'Jyoti Sinha',
+  authors: [{ name: 'Sachi Jha', url: SITE_URL }],
+  creator: 'Sachi Jha',
   openGraph: {
     type: 'website',
     locale: 'en_SG',
     url: SITE_URL,
-    siteName: 'Jyoti Sinha',
-    title: 'Jyoti Sinha | Control-M SME',
+    siteName: 'Sachi Jha',
+    title: 'Sachi Jha | Full-Stack Developer & AI Enthusiast',
     description,
     images: [
       {
         url: '/opengraph-image',
         width: 1200,
         height: 630,
-        alt: 'Jyoti Sinha | Control-M SME Portfolio',
+        alt: 'Sachi Jha | Full-Stack Developer & AI Enthusiast Portfolio',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jyoti Sinha | Control-M SME',
+    title: 'Sachi Jha | Full-Stack Developer & AI Enthusiast',
     description,
     images: ['/opengraph-image'],
   },
@@ -117,13 +115,13 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Person',
-              name: 'Jyoti Sinha',
+              name: 'Sachi Jha',
               url: SITE_URL,
-              email: 'jyotisinha0526@gmail.com',
-              jobTitle: 'Control-M SME',
+              email: 'sachijha.14@gmail.com',
+              jobTitle: 'Full-Stack Developer & AI Enthusiast',
               sameAs: [
-                'https://ctm-log-analyzer.netlify.app/',
-                'https://www.linkedin.com/feed/update/urn:li:activity:7453443679396003840/',
+                'https://github.com/sachijhaa',
+                'https://www.linkedin.com/in/sachi-jha-76bb44331/',
               ],
             }),
           }}

@@ -1,22 +1,37 @@
 {
   "site": {
-    "tagline": "Portfolio 2026"
+    "tagline": "Portfolio of Sachi Jha"
   },
   "hero": {
-    "taglineHighlight": "Control-M",
-    "freelanceNote": "Open to Control-M, production support, automation, and AI operations opportunities.",
+    "taglineHighlight": "Full-Stack Developer & AI Enthusiast",
+    "freelanceNote": "Open to internships, hackathons, collaborations, and exciting software development opportunities.",
     "availableLabel": "Available for opportunities",
-    "pills": ["Control-M SME", "L3 Production Support", "Agentic AI", "Automation"],
-    "specialistStat": { "value": "Control-M + AI", "label": "Specialist" }
+    "pills": [
+      "Full-Stack Developer",
+      "App Developer",
+      "AI Enthusiast",
+      "Problem Solver"
+    ],
+    "specialistStat": {
+      "value": "Full-Stack + AI",
+      "label": "Developer"
+    }
   },
   "interstitial": {
     "availabilityLabel": "Availability",
     "basedInLabel": "Based in",
-    "statLabels": ["Years\nexperience", "Enterprise\nroles", "AI automation\nprojects"]
+    "statLabels": [
+      "Projects\nexperience",
+      "Hackathons\nroles",
+      "Research\nprojects"
+    ]
   },
   "footer": {
-    "eyebrow": "Available for enterprise support and automation",
-    "ctaLines": ["Keeping critical", "workloads resilient"],
-    "ctaAccent": "trusted."
+    "eyebrow": "Available for internships, projects, and collaborations",
+    "ctaLines": [
+      "Building innovative",
+      "Digital experiences"
+    ],
+    "ctaAccent": "together."
   }
 }
